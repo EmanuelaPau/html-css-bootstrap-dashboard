@@ -1,3 +1,16 @@
+/* FONTS */
+.my-text {
+    font-size: .9rem;
+}
+
+.my_h1 {
+    font-size: 1.8rem;
+}
+
+.my_h2 {
+    font-size: 1.6rem;
+}
+
 /* NAVBAR */
 .my_navbar {
     height: 70px;
@@ -43,3 +56,4 @@
 .my_icon-font {
     font-size: .5rem;
 }
+
