@@ -34,6 +34,15 @@
     height: calc(100vh - 70px);
 }
 
+
+/* Main app header */
+.my_sq-icon-container {
+    border: 1px solid white;
+    height:40px;
+    width: 40px;
+    margin-left:1rem;
+}
+
 /* Colors */
 
 .my_bg-dark-blue {
