@@ -6,23 +6,31 @@
 }
 
 .my_test_second {
-    height: 500px;
     background-color: aqua;
 }
 
 .my_test_third {
-    height: 500px;
     background-color: red;
 }
 
 .my_test_four {
-    height: 500px;
     background-color: yellow;
+    height: 100%;
 }
 
 .my_test_five {
-    height: 500px;
     background-color: green;
 }
 
 /* NAVBAR */
+.my_navbar {
+    height: 70px;
+}
+
+.my_main-app-container {
+    height: calc(100vh - 70px);
+}
+
+.my_col-height {
+    height: calc(100vh - 70px - 100px);
+}
