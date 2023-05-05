@@ -28,11 +28,26 @@
     <body>
         <header>
             <!-- Image and text -->
-            <nav class="navbar navbar-light bg-light my_navbar">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-                    Bootstrap
+            <nav class="navbar navbar-light bg-light my_navbar px-4 px-lg-3">
+                <!-- Logo lg -->
+                <a class="navbar-brand d-none d-lg-inline-block" href="#">
+                    <img src="img/logo.svg" height="30" class="d-inline-block align-top" alt="">
                 </a>
+                <!-- Logo md -->
+                <a class="navbar-brand d-inline-block d-lg-none" href="#">
+                    <img src="img/mobile-logo.png" height="50" class="d-inline-block align-top" alt="">
+                </a>
+
+                 <!-- searchbar -->
+                <form class="form-inline">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </form>
+                
             </nav>
         </header>
 
