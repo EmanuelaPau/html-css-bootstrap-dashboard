@@ -39,6 +39,10 @@
     width: 60%;
 }
 
+.my-table-small {
+    width:15%
+}
+
 .my_class-avatar {
     width: 25px;
     vertical-align: center;
