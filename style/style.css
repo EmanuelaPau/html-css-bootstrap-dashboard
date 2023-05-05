@@ -20,9 +20,14 @@
     height: 70px;
 }
 
+.my_searchbar-height {
+    height: 45px;
+}
+
 .my_main-app-container {
     height: calc(100vh - 70px);
 }
+
 
 /* Sidebar */
 .my_sidebar {
@@ -73,6 +78,10 @@
 
 .my-bg-md-blue {
     background-color: #165bba;
+}
+
+.my_bg-light-grey {
+    background-color: #e9ecef;
 }
 
 .my_icon-font {

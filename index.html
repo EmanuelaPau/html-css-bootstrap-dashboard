@@ -28,26 +28,48 @@
     <body>
         <header>
             <!-- Image and text -->
-            <nav class="navbar navbar-light bg-light my_navbar px-4 px-lg-3">
-                <!-- Logo lg -->
-                <a class="navbar-brand d-none d-lg-inline-block" href="#">
-                    <img src="img/logo.svg" height="30" class="d-inline-block align-top" alt="">
-                </a>
-                <!-- Logo md -->
-                <a class="navbar-brand d-inline-block d-lg-none" href="#">
-                    <img src="img/mobile-logo.png" height="50" class="d-inline-block align-top" alt="">
-                </a>
-
-                 <!-- searchbar -->
-                <form class="form-inline">
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">@</span>
+            <nav class="container-fluid">
+                    <!-- Logo -->
+                    <div class="row align-items-center my_navbar">
+                        <!-- Logo-sm -->
+                        <div class="col-1 d-none d-lg-inline-block">
+                            <a class="" href="#">
+                                <img src="img/logo.svg" height="25" class="d-inline-block align-top" alt="">
+                            </a> 
                         </div>
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                    </div>
-                </form>
 
+                        <div class="col-1 d-inline-block d-none">
+                            <!-- Logo md -->
+                            <a class="" href="#">
+                                <img src="img/mobile-logo.png" height="45" class="d-inline-block align-top" alt="">
+                            </a>   
+                        </div>
+
+                        <!-- searchbar -->
+                        <div class="col-10">
+                            <form class="form-inline">
+                                <div class="input-group ">
+                                    <div class="input-group-prepend border-0">
+                                        <span class="my_searchbar-height input-group-text border-0 rounded-0 rounded-start" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                    </div>
+                                    <input type="text" class="my_searchbar-height form-control my_bg-light-grey border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </form>
+                        </div>
+                         
+                        <!-- menu right -->
+
+                        <div class="col-1 d-flex ">
+                            
+                            
+                            
+                            <button class="btn mx-1 p-1"><i class="fa-solid fa-list-ul"></i></button>
+                            <button class="btn mx-1 p-1"><i class="fa-solid fa-circle-question"></i></button>
+                            <button class="btn mx-1 p-1"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                            <button class="btn mx-1 p-1 text-warning"><i class="fa-solid fa-bell "></i></button>
+                        </div>
+                        
+                    </div>
             </nav>
         </header>
 
@@ -57,7 +79,7 @@
                 <div class="row">
 
                     <!-- Sidebar -->
-                    <div class="col-2 my_bg-dark-blue my_sidebar">
+                    <div class="col-1 my_bg-dark-blue my_sidebar">
                         <div class="container ">
                             <div class="row pt-4 flex-column justify-content-between my_main-app-container text-light">
                                 <!-- Upper sidebar -->
@@ -96,7 +118,7 @@
                     <!-- End Sidebar -->
 
                     <!-- App-box -->
-                    <div class="col-10 my_main-app-container overflow-y-scroll">
+                    <div class="col-11 my_main-app-container overflow-y-scroll">
                         <div class="container-fluid p-0 ">
                             <div class="row">
 
