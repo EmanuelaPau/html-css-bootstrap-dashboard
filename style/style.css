@@ -25,7 +25,6 @@
 .my_col-height {
     height: calc(100vh - 70px - 100px);
 }
-
 /* NAVBAR */
 .my_navbar {
     height: 70px;
