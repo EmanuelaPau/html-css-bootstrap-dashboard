@@ -7,6 +7,21 @@
     height: calc(100vh - 70px);
 }
 
+/* Sidebar */
+.my_sidebar {
+    background-image: url(../img/sidebar-bg.png)
+}
+
+.my_sidebar-li i {
+    width: 30px;
+}
+
+.my_sidebar-li::before {
+    background-color: white;
+    opacity: .5;
+}
+
+
 /* Main app header */
 .my_sq-icon-container {
     border: 1px solid white;
