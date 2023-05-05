@@ -33,3 +33,9 @@
 .my_main-app-container {
     height: calc(100vh - 70px);
 }
+
+/* Colors */
+
+.my_bg-dark-blue {
+    background-color: #051e34;
+}
