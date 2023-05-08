@@ -59,8 +59,10 @@
 
           <!-- searchbar -->
           <div class="my_nav_m input-group ">
-                  <span class="my_searchbar-height input-group-text border-0 rounded-0 rounded-start" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"><i></span>
-                <input type="text"class="my_searchbar-height form-control my_bg-light-grey border-0"placeholder="Prova a cercare: Lezioni di Laravel"aria-label="Username"aria-describedby="basic-addon1"/>
+                  <span class="my_searchbar-height input-group-text border-0 rounded-0 rounded-start" id="basic-addon1">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </span>
+                <input type="text" class="my_searchbar-height form-control my_bg-light-grey border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1"/>
           </div>
 
           <!-- menu right -->
@@ -155,7 +157,7 @@
                     </button>
                     
                     <!-- Offcanvas -->
-                    <div class="offcanvas offcanvas-end my_offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas offcanvas-end my_offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRight">
                       <div class="offcanvas-header text-black">
                         <h6>Inserisci un nuovo studente</h6>
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -181,13 +183,13 @@
                             
                             <!-- Email -->
                             <div class="col-12 col-md-auto">
-                              <label class="mb-1 text-black" for="email-2">Email</label>
-                              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                              <label class="mb-1 text-black" for="email-1">Email</label>
+                              <label class="sr-only" for="email-1">Username</label>
                               <div class="input-group mb-2">
                                 <div class="input-group-prepend">
                                   <div class="input-group-text">@</div>
                                 </div>
-                                <input type="text" class="form-control my_form-control mb-3" id="inlineFormInputGroup">
+                                <input type="text" class="form-control my_form-control mb-3" id="email-1">
                               </div>
                             </div>
 
@@ -203,12 +205,12 @@
                             <!-- Email -->
                             <div class="col-12 col-md-auto">
                               <label class="mb-1 text-black" for="email-2">Indirizzo Email</label>
-                              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                              <label class="sr-only" for="email-2">Username</label>
                               <div class="input-group mb-2">
                                 <div class="input-group-prepend">
                                   <div class="input-group-text">@</div>
                                 </div>
-                                <input type="text" class="form-control my_form-control mb-3" id="inlineFormInputGroup">
+                                <input type="text" class="form-control my_form-control mb-3" id="email-2">
                               </div>
                             </div>
 
@@ -233,7 +235,7 @@
                             
                             <!-- Citta -->
                             <div class="form-group text-black col-12  col-md-5">
-                              <label class="mb-1" for="dity">Città</label>
+                              <label class="mb-1" for="city">Città</label>
                               <input type="text" class="form-control my_form-control mb-3" id="city">
                             </div>
 
@@ -401,7 +403,7 @@
                         </tr>
                         <tr>
                           <td>
-                            <img class="my_class-avatar me-2"src="img/class-avatar.png" alt="class avatar logo"/>
+                            <img class="my_class-avatar me-2" src="img/class-avatar.png" alt="class avatar logo"/>
                             Classe 75
                           </td>
                           <td class="d-none d-md-table-cell text-center">17 Feb 2021</td>
@@ -649,7 +651,8 @@
                 </div>
               </div>
             </div>
-          <!-- End main app -->
+            <!-- End main app -->
+          </div>
         </div>
       </main>
   </body>
