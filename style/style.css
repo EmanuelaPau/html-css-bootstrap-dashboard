@@ -105,7 +105,13 @@
 }
 
 .my_offcanvas {
-    width: 40% !important;
+    width: 100% !important;
+}
+
+@media screen and (min-width: 992px) {
+    .my_offcanvas {
+        width: 40% !important;
+    }
 }
 
 /* Colors */
