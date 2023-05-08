@@ -11,7 +11,6 @@
     font-size: 1.6rem;
 }
 
-
 .my_h5 {
     font-size: 1rem;
 }
@@ -25,26 +24,6 @@
     height: 45px;
     /* cursor:pointer */
 }
-
-.my_main-app-container {
-    height: calc(100vh - 70px);
-    background-color: aqua;
-}
-
-.my_main-app {
-    height: 100%;
-    width: 100%;
-    overflow-y: scroll;
-    background-color: #f8f9fa;
-}
-
-/* .my_main-app-l {
-    height: 100%;
-}
-
-.my_main-app-r {
-    height: 100%;
-} */
 
 #my_logo-nav-lg {
     width: 120px;
@@ -70,25 +49,18 @@
     background-color: rgba(255, 255, 255, 0.144);
 }
 
-/* Table */
-.my_table-name {
-    width: 60%;
+/* MAIN APP */
+.my_main-app-container {
+    height: calc(100vh - 70px);
+    background-color: aqua;
 }
 
-.my-table-small {
-    width: 15%
+.my_main-app {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: #f8f9fa;
 }
-
-.my_class-avatar {
-    width: 25px;
-    vertical-align: center;
-}
-
-.my_table_button {
-    width: 25px;
-    height: 25px;
-}
-
 
 /* Main app header */
 .my_sq-icon-container {
@@ -111,6 +83,25 @@
     .my_offcanvas {
         width: 40% !important;
     }
+}
+
+/* Table */
+.my_table-name {
+    width: 60%;
+}
+
+.my-table-small {
+    width: 15%
+}
+
+.my_class-avatar {
+    width: 25px;
+    vertical-align: center;
+}
+
+.my_table_button {
+    width: 25px;
+    height: 25px;
 }
 
 /* Colors */
