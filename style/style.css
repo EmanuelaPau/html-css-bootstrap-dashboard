@@ -22,12 +22,20 @@
 
 .my_searchbar-height {
     height: 45px;
+    /* cursor:pointer */
 }
 
 .my_main-app-container {
     height: calc(100vh - 70px);
 }
 
+#my_logo-nav-lg {
+    width: 120px;
+}
+
+#my_logo-nav-md {
+    width: 50px;
+}
 
 /* Sidebar */
 .my_sidebar {
@@ -62,12 +70,19 @@
     height: 25px;
 }
 
+
+
 /* Main app header */
 .my_sq-icon-container {
     border: 1px solid white;
     height:40px;
     width: 40px;
     margin-left:1rem;
+}
+
+.my_circle-plus {
+    width: 23px;
+    height: 23px;
 }
 
 /* Colors */
