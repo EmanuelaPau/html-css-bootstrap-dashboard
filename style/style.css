@@ -32,8 +32,9 @@
 
 .my_main-app {
     height: 100%;
+    width: 100%;
     overflow-y: scroll;
-    /* background-color: red; */
+    background-color: red;
 }
 
 .my_main-app-l {
@@ -55,7 +56,8 @@
 /* Sidebar */
 .my_sidebar {
     height: 100%;
-    width: 8%;
+    width: 10%;
+
     background-image: url(../img/sidebar-bg.png)
 }
 
