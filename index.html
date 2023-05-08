@@ -122,7 +122,7 @@
           <!-- Sidebar -->
           <div class="my_bg-dark-blue my_sidebar">
             <div
-              class="pt-5 d-flex flex-column justify-content-between align-items-lg-start align-items-md-center text-light ps-lg-3 h-100"
+              class="pt-5 d-flex flex-column justify-content-between align-items-lg-start align-items-md-center text-light ps-xl-3 h-100"
             >
               <!-- Upper sidebar -->
               <div class="upper sidebar">
@@ -136,7 +136,7 @@
   
                   <li class="my_sidebar-li text-center">
                     <a class="text-reset text-decoration-none" href="">
-                      <i class="fa-solid fa-chart-simple p-11"></i>
+                      <i class="fa-solid fa-chart-simple p-1"></i>
                       <p class="d-none d-lg-inline-block">Stats</p>
                     </a>
                   </li>
@@ -207,13 +207,13 @@
                         <form>
                           <div class="row">
                             <!-- Nome -->
-                            <div class="form-group text-black col">
+                            <div class="form-group text-black col-12 col-md">
                               <label class="mb-1" for="nome">Nome</label>
                               <input type="text" class="form-control my_form-control mb-3" id="nome">
                             </div>
 
                             <!-- Cognome -->
-                            <div class="form-group text-black col">
+                            <div class="form-group text-black col-12 col-md">
                               <label class="mb-1" for="cognome">Cognome</label>
                               <input type="text" class="form-control my_form-control mb-3" id="cognome">
                             </div>
@@ -222,7 +222,7 @@
                           <div class="row">
                             
                             <!-- Email -->
-                            <div class="col-auto">
+                            <div class="col-12 col-md-auto">
                               <label class="mb-1 text-black" for="email-2">Email</label>
                               <label class="sr-only" for="inlineFormInputGroup">Username</label>
                               <div class="input-group mb-2">
@@ -234,7 +234,7 @@
                             </div>
 
                             <!-- Password -->
-                            <div class="form-group text-black col">
+                            <div class="form-group text-black col-12 col-md">
                               <label class="mb-1" for="password-1">Password</label>
                               <input type="password" class="form-control my_form-control mb-3" id="password-1">
                             </div>
@@ -243,7 +243,7 @@
                           <div class="row">
                             
                             <!-- Email -->
-                            <div class="col-auto">
+                            <div class="col-12 col-md-auto">
                               <label class="mb-1 text-black" for="email-2">Indirizzo Email</label>
                               <label class="sr-only" for="inlineFormInputGroup">Username</label>
                               <div class="input-group mb-2">
@@ -255,7 +255,7 @@
                             </div>
 
                             <!-- Password -->
-                            <div class="form-group text-black col">
+                            <div class="form-group text-black col-12 col-md">
                               <label class="mb-1" for="password-2">Password</label>
                               <input type="password" class="form-control my_form-control mb-3" id="password-2">
                             </div>
@@ -274,13 +274,13 @@
                           <div class="row">
                             
                             <!-- Citta -->
-                            <div class="form-group text-black col-5">
+                            <div class="form-group text-black col-12  col-md-5">
                               <label class="mb-1" for="dity">Città</label>
                               <input type="text" class="form-control my_form-control mb-3" id="city">
                             </div>
 
                             <!-- Stati -->
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-12 col-md-4">
                               <label class="mb-1 text-black" for="address">Stato</label>
                               <select id="inputState" class="form-control my_form-control mb-3">
                                 <option selected>Scegli...</option>
@@ -289,11 +289,18 @@
                             </div>
 
                             <!-- Cap -->
-                            <div class="form-group text-black col-3">
+                            <div class="form-group text-black col 12 col-md-12">
                               <label class="mb-1" for="cap">CAP</label>
                               <input type="number" class="form-control my_form-control mb-3" id="cap">
                             </div>
-                            
+
+                            <!-- Upload -->
+                            <div class="form-group text-black col 12 ">
+                              <label class="mb-1" for="cap">Foto</label>
+                              <label class="form-label" for="customFile"></label>
+                              <input type="file" class="form-control my_form-control mb-3" id="customFile" />    
+                            </div>
+
                           </div>
 
                           <!-- Buttons -->
