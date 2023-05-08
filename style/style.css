@@ -21,6 +21,21 @@
     height: 70px;
 }
 
+.my_nav_l {
+    width: 10%;
+    flex-shrink: 0;
+}
+
+.my_nav_m {
+    width: 80%;
+    flex-shrink: 2;
+}
+
+.my_nav_r {
+    width: 10%;
+    flex-shrink: 0;
+}
+
 .my_searchbar-height {
     height: 45px;
     /* cursor:pointer */

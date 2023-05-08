@@ -40,11 +40,11 @@
   <body>
     <header>
       <!-- Image and text -->
-      <nav class="container-fluid">
+      <nav class="container-fluid w-100">
         <!-- Logo -->
-        <div class="row align-items-center my_navbar">
+        <div class="d-flex align-items-center justify-content-between my_navbar w-100">
           <!-- Logo-sm -->
-          <div class="col-1 d-none d-lg-inline-block">
+          <div class="my_nav_l d-none d-lg-inline-block">
             <a class="#my_logo-nav-md" href="#">
               <img
                 id="my_logo-nav-lg"
@@ -55,7 +55,7 @@
             </a>
           </div>
 
-          <div class="col-1 d-inline-block d-lg-none">
+          <div class="my_nav_l d-inline-block d-lg-none">
             <!-- Logo md -->
             <a class="" href="#">
               <img
@@ -68,7 +68,7 @@
           </div>
 
           <!-- searchbar -->
-          <div class="col-10">
+          <div class="my_nav_m">
             <form class="form-inline">
               <div class="input-group">
                 <div class="input-group-prepend border-0">
@@ -90,7 +90,7 @@
           </div>
 
           <!-- menu right -->
-          <div class="col-1 d-flex">
+          <div class="my_nav_r d-flex justify-content-end">
             <button class="btn mx-1 p-1 d-none d-lg-inline-block">
               <i class="fa-solid fa-list-ul"></i>
             </button>
@@ -291,7 +291,7 @@
                             <!-- Cap -->
                             <div class="form-group text-black col 12 col-md-12">
                               <label class="mb-1" for="cap">CAP</label>
-                              <input type="text" class="form-control my_form-control mb-3" id="cap">
+                              <input type="number" class="form-control my_form-control mb-3" id="cap">
                             </div>
 
                             <!-- Upload -->
