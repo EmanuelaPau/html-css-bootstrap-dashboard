@@ -100,9 +100,17 @@
             <button class="btn mx-1 p-1 d-none d-lg-inline-block">
               <i class="fa-solid fa-ellipsis-vertical"></i>
             </button>
-            <button class="btn mx-1 p-1 text-warning d-lg-inline-block">
-              <i class="fa-solid fa-bell"></i>
-            </button>
+
+            <div class="dropdown">
+              <button class="btn text-warning mx-1 p-1 d-lg-inline-block" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bell"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -287,7 +295,7 @@
                             <!-- Cap -->
                             <div class="form-group text-black col-3">
                               <label class="mb-1" for="cap">CAP</label>
-                              <input type="text" class="form-control my_form-control mb-3" id="cap">
+                              <input type="number" class="form-control my_form-control mb-3" id="cap">
                             </div>
                             
                           </div>
