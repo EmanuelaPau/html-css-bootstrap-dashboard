@@ -66,9 +66,8 @@
     width: 30px;
 }
 
-.my_sidebar-li::before {
-    background-color: white;
-    opacity: .5;
+.my_sidebar-li:hover {
+    background-color: rgba(255, 255, 255, 0.144);
 }
 
 /* Table */
