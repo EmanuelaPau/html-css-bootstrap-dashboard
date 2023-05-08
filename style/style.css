@@ -27,6 +27,21 @@
 
 .my_main-app-container {
     height: calc(100vh - 70px);
+    background-color: aqua;
+}
+
+.my_main-app {
+    height: 100%;
+    overflow-y: scroll;
+    /* background-color: red; */
+}
+
+.my_main-app-l {
+    height: 100%;
+}
+
+.my_main-app-r {
+    height: 100%;
 }
 
 #my_logo-nav-lg {
@@ -39,6 +54,8 @@
 
 /* Sidebar */
 .my_sidebar {
+    height: 100%;
+    width: 8%;
     background-image: url(../img/sidebar-bg.png)
 }
 
@@ -69,7 +86,6 @@
     width: 25px;
     height: 25px;
 }
-
 
 
 /* Main app header */
