@@ -183,13 +183,13 @@
                     </button>
   
                     <div
-                      class="offcanvas offcanvas-end"
+                      class="offcanvas offcanvas-end my_offcanvas"
                       tabindex="-1"
                       id="offcanvasRight"
                       aria-labelledby="offcanvasRightLabel"
                     >
-                      <div class="offcanvas-header">
-                        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                      <div class="offcanvas-header text-black">
+                        <h6>Inserisci un nuovo studente</h6>
                         <button
                           type="button"
                           class="btn-close text-reset"
@@ -197,7 +197,115 @@
                           aria-label="Close"
                         ></button>
                       </div>
-                      <div class="offcanvas-body">...</div>
+                      <div class="offcanvas-body">
+
+                        <form>
+                          <div class="form-row">
+                            <!-- Nome -->
+                            <div class="form-group text-black col>
+                              <label class="mb-1" for="nome">Nome</label>
+                              <input type="text" class="form-control my_form-control mb-3" id="nome">
+                            </div>
+
+                            <!-- Cognome -->
+                            <div class="form-group text-black col">
+                              <label class="mb-1" for="cognome">Cognome</label>
+                              <input type="text" class="form-control my_form-control mb-3" id="cognome">
+                            </div>
+                          </div>
+
+                          <div class="form-row">
+                            
+                            <!-- Email -->
+                            <div class="col-auto">
+                              <label class="mb-1 text-black" for="email-2">Email</label>
+                              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                              <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                  <div class="input-group-text">@</div>
+                                </div>
+                                <input type="text" class="form-control my_form-control mb-3" id="inlineFormInputGroup">
+                              </div>
+                            </div>
+
+                            <!-- Password -->
+                            <div class="form-group text-black col">
+                              <label class="mb-1" for="password-1">Password</label>
+                              <input type="password" class="form-control my_form-control mb-3" id="password-1">
+                            </div>
+                          </div>
+
+                          <div class="form-row">
+                            
+                            <!-- Email -->
+                            <div class="col-auto">
+                              <label class="mb-1 text-black" for="email-2">Indirizzo Email</label>
+                              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                              <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                  <div class="input-group-text">@</div>
+                                </div>
+                                <input type="text" class="form-control my_form-control mb-3" id="inlineFormInputGroup">
+                              </div>
+                            </div>
+
+                            <!-- Password -->
+                            <div class="form-group text-black col">
+                              <label class="mb-1" for="password-2">Password</label>
+                              <input type="password" class="form-control my_form-control mb-3" id="password-2">
+                            </div>
+                          </div>
+
+                          <div class="form-row">
+                            
+                            <!-- Indirizzo -->
+                            <div class="form-group text-black col">
+                              <label class="mb-1" for="address">Indirizzo</label>
+                              <input type="text" class="form-control my_form-control mb-3" id="address">
+                            </div>
+
+                          </div>
+
+                          <div class="form-row">
+                            
+                            <!-- Citta -->
+                            <div class="form-group text-black col-5">
+                              <label class="mb-1" for="dity">Città</label>
+                              <input type="text" class="form-control my_form-control mb-3" id="city">
+                            </div>
+
+                            <!-- Stati -->
+                            <div class="form-group col-md-4">
+                              <label class="mb-1 text-black" for="address">Stato</label>
+                              <select id="inputState" class="form-control my_form-control mb-3">
+                                <option selected>Scegli...</option>
+                                <option>...</option>
+                              </select>
+                            </div>
+
+                            <!-- Cap -->
+                            <div class="form-group text-black col-3">
+                              <label class="mb-1" for="cap">CAP</label>
+                              <input type="text" class="form-control my_form-control mb-3" id="cap">
+                            </div>
+                            
+                          </div>
+
+                          <!-- Buttons -->
+                          <div class="form-group">
+                            <div class="form-check mb-3">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label text-black" for="gridCheck">
+                                Seleziona per proseguire
+                              </label>
+                            </div>
+                          </div>
+
+                          <button type="submit" class="btn btn-primary">Sign in</button>
+                          <button type="submit" class="btn btn-warning">Svuota</button>
+                        </form>
+
+                      </div>
                     </div>
                   </div>
   
@@ -271,7 +379,7 @@
             <!-- End main app blue header -->
   
             <!-- main app cards -->
-            <div class="row h-100 pt-3">
+            <div class="row h-100 p-3">
               <!-- Main app left -->
               <div class="col-12 col-lg-8 my_main-app-l my-text">
                 <!-- Table Card-->

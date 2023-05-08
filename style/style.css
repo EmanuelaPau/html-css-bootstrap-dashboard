@@ -11,6 +11,7 @@
     font-size: 1.6rem;
 }
 
+
 .my_h5 {
     font-size: 1rem;
 }
@@ -76,7 +77,7 @@
 }
 
 .my-table-small {
-    width:15%
+    width: 15%
 }
 
 .my_class-avatar {
@@ -93,14 +94,18 @@
 /* Main app header */
 .my_sq-icon-container {
     border: 1px solid white;
-    height:40px;
+    height: 40px;
     width: 40px;
-    margin-left:1rem;
+    margin-left: 1rem;
 }
 
 .my_circle-plus {
     width: 23px;
     height: 23px;
+}
+
+.my_offcanvas {
+    width: 40% !important;
 }
 
 /* Colors */
@@ -120,4 +125,3 @@
 .my_icon-font {
     font-size: .5rem;
 }
-
