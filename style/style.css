@@ -36,9 +36,18 @@
 /* Sidebar */
 .my_sidebar {
     height: 100%;
-    width: 10%;
+    width: 80px;
 
     background-image: url(../img/sidebar-bg.png)
+}
+
+@media screen and (min-width: 992px) {
+    .my_sidebar {
+        width: 160px;
+
+        background-image: url(../img/sidebar-bg.png)
+    }
+
 }
 
 .my_sidebar-li i {
